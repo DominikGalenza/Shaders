@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: HelloShader
-  m_Shader: {fileID: 4800000, guid: caf93b6a0c15d3f4681ca538c3f36ee4, type: 3}
+  m_Shader: {fileID: 4800000, guid: ba57f91ebad040249abfa550a938939c, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -99,7 +99,8 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
-    - _myBumpSlider: 1
+    - _myBrightSlider: 1
+    - _myBumpSlider: 3
     - _myFloat: 0.5
     - _myRange: 3.98
     - _mySlider: 3
