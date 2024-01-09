@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HelloShader 1
-  m_Shader: {fileID: 4800000, guid: ce02b780480194b4093dce7e0cf16939, type: 3}
+  m_Name: BlinnPhong
+  m_Shader: {fileID: 4800000, guid: 71ccf952b0cb7a64e86b063c3c7809ca, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -46,10 +46,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicTex:
-        m_Texture: {fileID: 2800000, guid: abbe56e4c175a254ba41ae7e8ec8da88, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -90,18 +86,17 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Emission: 0.39
-    - _Gloss: 0.5
+    - _Gloss: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Metallic: 1
+    - _Metallic: 0
     - _Mode: 0
     - _MySliderValue: 10
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
-    - _Spec: 0.5
+    - _Spec: 0.613
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
@@ -115,9 +110,9 @@ Material:
     m_Colors:
     - _AmbientColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0.091, g: 0, b: 0.68275833, a: 1}
-    - _Colour: {r: 0.21491845, g: 0.6886792, b: 0.1721698, a: 0.44705883}
+    - _Colour: {r: 0.44705883, g: 0.44705883, b: 0.44705883, a: 0.44705883}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _SpecColor: {r: 0.8679245, g: 0.12691349, b: 0.12691349, a: 1}
+    - _SpecColor: {r: 0.24429992, g: 1, b: 0.13679248, a: 1}
     - _myColour: {r: 0.2569865, g: 0.28230137, b: 0.990566, a: 1}
     - _myEmission: {r: 0.5060676, g: 0.5377358, b: 0.022828398, a: 1}
     - _myNormal: {r: 0.46569067, g: 0.8584906, b: 0.7642186, a: 1}
